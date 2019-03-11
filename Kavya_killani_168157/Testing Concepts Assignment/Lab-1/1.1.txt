@@ -1,0 +1,60 @@
+Lab 1
+1.1
+
+1. cond1=true, Raining=True And Wind=True
+else cond2=notEval
+cond1=True output=Stay inside
+cond2=False output=Stay outside
+
+2.cond1=True, Evening is True
+else cond2=notEval
+
+3.cond3=True, go to beach
+  cond3=False, no beach
+
+According to the given program the test situations are,
+if(Rain AND Wind)OR Evening
+cond1=true, Evening=True 
+1.(Rain=true AND Wind=true)OR Evening
+output=true,stay inside
+
+2.(Rain=true AND Wind=False)OR Evening
+output=true, stay inside
+
+3.(Rain=false AND Wind=true)OR Evening
+output=true, stay inside
+
+4.(Rain=false AND Wind=false)OR Evening
+output=true, stay inside
+
+5.cond1=true, Evening=False
+(Rain=true AND Wind=true)OR Evening
+output=true, stay inside
+
+6.(Rain=true AND Wind=false)OR Evening
+output=false, stay outside
+
+7.(Rain=false AND Wind=true)OR Evening
+output=false, stay outside
+
+8.(Rain=false AND Wind=false)OR Evening
+output=false, stay outside
+
+cond3=True, go to beach
+  cond3=False, no beach
+
+According to the given program,
+if(sun shines=true)
+output=true, go to beach
+
+if(sun shines=false)
+output=notEval
+
+
+
+
+
+
+
+ 	
+	
